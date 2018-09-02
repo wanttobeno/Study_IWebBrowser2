@@ -1,0 +1,3 @@
+﻿  WebBrowserCore.cpp
+c:\users\zhanyue\desktop\study\sduty_iwebbrowser2\embeddedwebbrowser\embeddedwebbrowser\webbrowsercore.cpp(504): warning C4018: '>' : signed/unsigned mismatch
+  EmbeddedWebBrowser.vcxproj -> C:\Users\ZhanYue\Desktop\Study\Sduty_IWebBrowser2\EmbeddedWebBrowser\Debug\EmbeddedWebBrowser.exe
