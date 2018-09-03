@@ -1,0 +1,262 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "commctrl.h"
+#include "richedit.h"
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""commctrl.h""\r\n"
+    "#include ""richedit.h""\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+FRM_MAIN DIALOG DISCARDABLE  0, 0, 554, 424
+STYLE DS_3DLOOK | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+MENU MNU_MAIN
+CLASS "TabCtrlDmoClass"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",MAIN_WEB_TAB_CONTROL,"SysTabControl32",
+                    TCS_SCROLLOPPOSITE,0,25,553,399
+    EDITTEXT        IDC_EDIT_URL,155,6,369,12,ES_MULTILINE | ES_AUTOHSCROLL
+    PUSHBUTTON      ">>>",IDC_BUTTON_RUNURL,529,3,19,18
+    PUSHBUTTON      "<<",IDC_BUTTON_GOBACK,2,1,26,22
+    PUSHBUTTON      ">>",IDC_BUTTON_GOFORWARD,29,1,26,22
+    PUSHBUTTON      "Flush",IDC_BUTTON_FLUSH,57,1,29,22
+    PUSHBUTTON      "Close",IDC_BUTTON_CLOSE,122,1,30,22
+    PUSHBUTTON      "Stop",IDC_BUTTON_STOP,89,1,30,22
+END
+
+TAB_CONTROL_1_PAGE_1 DIALOGEX 0, 0, 174, 220
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Command 1",CMD_CLICK_1,60,32,56,48
+    PUSHBUTTON      "Command 2",CMD_CLICK_2,60,88,56,48
+    PUSHBUTTON      "Command 3",CMD_CLICK_3,60,144,56,48
+END
+
+TAB_CONTROL_1_PAGE_2 DIALOGEX 0, 0, 174, 220
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "TabPage2",FRA_TAB_PAGE_2,0,0,172,220
+    PUSHBUTTON      "Command 4",CMD_CLICK_4,108,8,56,48
+    PUSHBUTTON      "Command 5",CMD_CLICK_5,8,164,56,48
+    CTEXT           "",LBL_1,28,96,104,20,SS_CENTERIMAGE
+END
+
+TAB_CONTROL_1_PAGE_3 DIALOGEX 0, 0, 174, 220
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Tab Page 3",FRA_TAB_PAGE_3,0,0,172,220
+    PUSHBUTTON      "Command 6",CMD_CLICK_6,8,12,56,48
+    PUSHBUTTON      "Command 7",CMD_CLICK_7,108,164,56,48
+    CTEXT           "",LBL_2,32,100,104,20,SS_CENTERIMAGE
+END
+
+TAB_CONTROL_1_PAGE_4 DIALOGEX 0, 0, 174, 220
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "TabPage4",FRA_TAB_PAGE_4,0,0,172,220
+END
+
+TAB_CONTROL_2_PAGE_1 DIALOG DISCARDABLE  0, 0, 193, 220
+STYLE WS_CHILD | WS_BORDER
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+TAB_CONTROL_2_PAGE_2 DIALOGEX 0, 0, 174, 220
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "TabPage2",FRA_TAB_PAGE_6,0,0,172,220
+    PUSHBUTTON      "Command 8",CMD_CLICK_8,48,32,56,48
+    PUSHBUTTON      "Command 9",CMD_CLICK_9,48,128,56,48
+END
+
+TAB_CONTROL_2_PAGE_3 DIALOGEX 0, 0, 174, 220
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "TabPage3",FRA_TAB_PAGE_7,0,0,172,220
+END
+
+TAB_CONTROL_2_PAGE_4 DIALOG DISCARDABLE  0, 0, 174, 220
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "TabPage4",FRA_TAB_PAGE_8,0,0,174,220
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MNU_MAIN MENUEX DISCARDABLE 
+BEGIN
+    POPUP "&File",                          2007,MFT_STRING,
+    MFS_ENABLED | MFS_UNCHECKED | MFS_UNHILITE | MFS_DEFAULT
+    BEGIN
+        MENUITEM "&Quit",                       2013,MFT_STRING,MFS_ENABLED
+    END
+    MENUITEM "&About",                      2002,MFT_STRING,MFS_ENABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_ICO_MAIN            ICON    DISCARDABLE     "main.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,0,1
+ PRODUCTVERSION 0,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080004b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "KsBinExplorer\0"
+            VALUE "FileVersion", "0.0.0.1\0"
+            VALUE "InternalName", "\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "KsBinExplorer\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "KsBinExplorer\0"
+            VALUE "ProductVersion", "0.0.0.1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    FRM_MAIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 461
+        BOTTOMMARGIN, 328
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
