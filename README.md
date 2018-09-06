@@ -13,3 +13,6 @@
 IWebBrowser2的封装
 
 
+##### 3、[KsBinExplorer](./KsBinExplorer)
+实现IE内核浏览器,支持多标签
+
