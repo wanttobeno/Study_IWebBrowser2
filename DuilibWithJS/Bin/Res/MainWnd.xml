@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="410,445" roundcorner="4,4" caption="0,0,0,30" showshadow="true" shadowcolor="0xFFFF6600" shadowsize="6" shadowcorner="4,4,4,4" >
+	<Font id="0" name="宋体" size="12" default="true" shared="true"/>
+	<Font id="1" size="14" bold="true" share="true"/>
+	<Font id="2" name="宋体" size="13" shared="true"/>	
+	
+	<VerticalLayout bkcolor="0xFFFFFFFF" bordersize="1" bordercolor="0xFFECECEC" >
+		<HorizontalLayout name="TitleLayout" height="30" childpadding="2" bkcolor="0xFFFF6600" >
+			<Label name="TitleLabel" font="1" textpadding="20,0,0,0" textcolor="0xFFFFFFFF" text="主窗口" autowidth="true" />
+			<Button name="closebtn" cursor="hand" width="28" height="28" tooltip="关闭" normalimage="Form_Close_Normal.png" hotimage="Form_Close_Over.png" pushedimage="Form_Close_Down.png" />				
+		</HorizontalLayout>
+		
+		<VerticalLayout name="BodyLayout" bkcolor="0xFFFFFFFF" inset="0,0,0,0" >
+			<WebBrowserEx name="web" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" homepage="about:blank" autonavi="true" delaycreate="false" bordersize="0" />
+		</VerticalLayout>	
+		<HorizontalLayout height="48">
+			<Control />
+			<Button name="CallJsBtn" text="执行js" padding="0,10,0,10" width="100" height="28" cursor="hand" textcolor="0xFFFFFFFF" bkcolor="0xFF0ABE05" hotbkcolor="0xFF1BD516" pushedbkcolor="0xFF04AE00" />
+			<Control />
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

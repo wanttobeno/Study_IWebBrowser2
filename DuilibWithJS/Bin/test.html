@@ -1,0 +1,23 @@
+<html>  
+<head>  
+    <meta charset="utf-8" />  
+    <title></title>  
+    <script language="javascript">  
+        function CallCppFunSub(x,y)  
+        {
+			var num = window.external.g_FunSub(x,y); 
+			alert(num);
+			return num
+        } 
+		function JsFunSub(x,y)  
+        {
+			var num = x - y;
+			alert(num);
+			return num
+        }
+    </script>  
+</head>  
+<body>
+    <button type="button" onclick="CallCppFunSub(4,7)">调用C++函数</button>  
+</body>  
+</html> 

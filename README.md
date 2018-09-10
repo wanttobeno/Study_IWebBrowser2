@@ -16,3 +16,6 @@ IWebBrowser2的封装
 ##### 3、[KsBinExplorer](./KsBinExplorer)
 实现IE内核浏览器,支持多标签
 
+##### 4、[DuilibWithJS](./DuilibWithJS)
+Duilib内嵌IE调用JS的例子
+
